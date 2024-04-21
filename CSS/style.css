@@ -1,0 +1,89 @@
+#submit{
+  background-color: rgb(34, 45, 45);
+  color: aliceblue;
+}
+#submit:hover{
+  background-color: aliceblue;
+  color: black;
+}
+body{
+text-transform: capitalize;
+}
+h1 {
+color: rgb(233, 223, 223);
+padding: 10px;
+text-transform: uppercase;
+}
+form {
+background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20200714/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+height: 500px;
+width: 900px;
+margin-left: 300px;
+margin-top: 50px;
+text-align: center;
+box-shadow: 10 10 10px black;
+border: 5px solid black;
+}
+form:hover{
+border: 10px solid rgb(146, 37, 37);
+background-image:  url("https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+color: #131010;
+transition: all 0.5s;
+}
+form:hover h1{
+color: #141313;
+transition: all 0.5s;
+}
+form input {
+padding: 5px 15px;
+font-weight: 500;
+border: 5px solid black;
+}
+
+thead {
+background-color: rgb(19, 52, 52);
+color: rgb(216, 222, 226);
+padding: 20px;
+}
+
+table {
+margin-top: 20px;
+}
+
+th {
+padding: 15px;
+border: 5PX solid rgb(175, 165, 165);
+width: 100px;
+margin: 15px;
+}
+
+tbody {
+width: 450px;
+height: 100%;
+border: 5px solid rgb(96, 70, 70);
+background-image: url("https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg");
+color: rgb(18, 19, 19);
+}
+
+tbody  td {
+border: 5PX solid white;
+}
+table{
+margin: auto;
+}
+.red-button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.green-button {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
